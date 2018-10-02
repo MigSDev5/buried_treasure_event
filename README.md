@@ -60,3 +60,6 @@ Dynamic event for dayz epoch developer by Mig.</br>
           s_player_dig_treasure = -1;
        
    done
+   
+  You can configure various options.
+   
