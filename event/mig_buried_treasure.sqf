@@ -97,6 +97,8 @@ if (_finished) then {
 				sleep 15;
 				_bomb = ["HelicopterExploSmall","HelicopterExploBig","Bo_GBU12_LGB"] call BIS_fnc_selectRandom;
 				_bomb = createVehicle [_bomb,_position, [], 0, "CAN_COLLIDE"];
+				sleep 5;
+				deleteVehicle _itemBomb;
 	        };
             case 6 : 
 	        {
