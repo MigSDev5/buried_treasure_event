@@ -17,7 +17,7 @@ Dynamic event for dayz epoch developer by Mig.</br>
         
       in array: 
 	
-	      EpochEvents 
+	      EpochEvents = [];
 	      
        add this: 
        
