@@ -1,5 +1,7 @@
 Dynamic event for dayz epoch developer by Mig.</br>
 
+![alt text](https://github.com/MigSDev5/buried_treasure_event/blob/master/buried_treasure.png)
+
 <b>** INSTALLATION **</br>
   - Download the archive.</br>
   
