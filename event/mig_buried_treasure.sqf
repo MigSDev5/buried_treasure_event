@@ -1,5 +1,9 @@
 private ["_graves","_position","_direction","_loopTime","_animState","_started","_finished","_Loop","_isMedic","_check","_box","_TreasureLoot1","_random","_bomb","_agent","_id","_holder","_items"];
 
+if(isNil "TreasureActionInProgress")then{
+        TreasureActionInProgress = false;
+};
+
 if (TreasureActionInProgress) exitWith {SystemChat "You are already digging.Wait for the end !!";};
 
 _graves = _this select 3;
